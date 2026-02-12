@@ -1,3 +1,4 @@
+@signup
 Feature: signup functionality
     Scenario: validate user should be able to signup with valid credentials
         Given open the browser
@@ -6,7 +7,7 @@ Feature: signup functionality
         When user is clicking on signup button
         Then user should be able to signup successfully
 
-
+@validcredentials
     Scenario: validate error message when fields are blank
         Given open the browser
         And enter the url
@@ -78,7 +79,7 @@ Feature: signup functionality
         And enter the url
         And enter the credentials
         And click on sign up link
-        And enter space in textfields
+        And enter space in textFields
         When user is clicking on signup button
         Then user should see a error message
 

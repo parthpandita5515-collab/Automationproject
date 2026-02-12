@@ -117,9 +117,9 @@ public class SignupStepdefs {
         System.out.println("user should recieve email");
     }
 
-    @And("^enter space in textfields$")
-    public void enterSpaceInTextfields() {
-        System.out.println("enter space in textfields");
+    @And("^enter space in textFields$")
+    public void enterSpaceInTextFields() {
+        System.out.println("enter space in textFields");
     }
 
     @Then("^user should see a error message$")
